@@ -1,0 +1,18 @@
+div { 
+    display: flex;
+    min-height: 70px;                  /* Para que se adapte a lo que sea */
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (max-width:700px) {
+    div{
+        flex-direction: column;   /* Para que los objetos aparezcan uno arriba de otro */
+    }
+    
+    #social {
+        padding: 10px, 0px;
+    }
+}
