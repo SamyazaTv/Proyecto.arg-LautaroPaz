@@ -1,0 +1,117 @@
+/*foto de perfil*/
+@media (min-width: 575px){
+    #perfil{ 
+        border-radius: 100%;
+        border: solid 4px white;
+        position: absolute;
+        width: 18%;  
+        left: 10%;  
+        margin-top: -16%;
+        align-items: center;
+        }  
+
+ /* #bot-perfil{                        /* HABILITAR MAS TARDE /*
+        position: absolute;                    
+        left: 15%;
+        margin-top: -2%;
+    }   */
+
+}
+@media (max-width: 575px){
+    #perfil{
+        border-radius: 100%;
+        border: solid 4px white;
+        position: relative;
+        margin-top: -13%;
+        width: 30%;
+        left: 34%;
+        align-items: center;
+    }
+/*  #bot-perfil{                        /* HABILITAR MAS TARDE /*
+        position: absolute;
+        left: 48%;
+        margin-top: -4%;
+    }   */
+}
+#alineado{     /* Acerca de mi  */
+    display: flex;
+    font-size: 10px;
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 7%;
+    
+}
+@media(max-width: 575px){
+    #alineado-nombre{
+        align-items: center;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 10%;
+        left: 20%;
+    }
+}
+
+@media(min-width: 575px){
+    #alineado-nombre{
+        position: absolute;
+        margin-top: 2%;
+        background: center;
+        text-align: center;
+        left: 14%;
+    }
+}
+
+/* tamaño de nombre: Lautaro Paz*/
+@media(max-width: 575px) {
+    #nombre{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    left: 10%;
+    }
+}
+
+@media(min-width: 574px) {
+    #nombre{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    left: 10%;
+    }
+}
+
+#nombre-profesion{
+    font-size: 13px;
+    text-align: center;
+}
+
+#frase{
+   font-size: 14px;
+   color: rgba(12, 4, 102, 0.692);
+   font-weight: bolder;
+}
+
+/* Sobre mi                             /* HABILITAR MAS TARDE /*
+@media(max-width: 575px){
+    #boton-sobre{
+        position: absolute;
+        margin: 105px;
+        margin-top: 55px;
+    }
+    #boton-sobremy{
+        position: relative;
+        margin-top: center;
+    }
+}
+@media(min-width: 575px){
+    #boton-sobre{
+        position: absolute;
+        margin: 105px;
+        margin-top: 60px;
+    }
+    #boton-sobremy{
+        position: relative;
+    }
+}
+*/
