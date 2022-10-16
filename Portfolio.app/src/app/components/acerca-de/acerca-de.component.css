@@ -1,13 +1,11 @@
 /*foto de perfil*/
 @media (min-width: 575px){
     #perfil{ 
-        border-radius: 100%;
         border: solid 4px white;
         position: absolute;
         width: 18%;  
-        left: 10%;  
-        margin-top: -16%;
-        align-items: center;
+        left: 7%;  
+        margin-top: -10%;
         }  
 
  /* #bot-perfil{                        /* HABILITAR MAS TARDE /*
@@ -19,13 +17,11 @@
 }
 @media (max-width: 575px){
     #perfil{
-        border-radius: 100%;
         border: solid 4px white;
         position: relative;
-        margin-top: -13%;
+        margin-top: -6%;
         width: 30%;
-        left: 34%;
-        align-items: center;
+        left: 35%;
     }
 /*  #bot-perfil{                        /* HABILITAR MAS TARDE /*
         position: absolute;
@@ -33,61 +29,48 @@
         margin-top: -4%;
     }   */
 }
-#alineado{     /* Acerca de mi  */
-    display: flex;
-    font-size: 10px;
-    margin-top: 5%;
+
+#alineado{
+    margin-top: 1%;
     text-align: center;
-    align-items: center;
-    margin-bottom: 7%;
+    margin-bottom: 10%;  
     
 }
 @media(max-width: 575px){
     #alineado-nombre{
-        align-items: center;
-        text-align: center;
         margin-top: 2%;
+        text-align: center;
         margin-bottom: 10%;
-        left: 20%;
     }
 }
 
 @media(min-width: 575px){
     #alineado-nombre{
-        position: absolute;
-        margin-top: 2%;
+        margin-top: 9%;
         background: center;
         text-align: center;
-        left: 14%;
     }
 }
 
 /* tamaño de nombre: Lautaro Paz*/
 @media(max-width: 575px) {
     #nombre{
-    text-align: center;
     font-weight: bolder;
     font-size: 18px;
-    left: 10%;
     }
 }
 
 @media(min-width: 574px) {
     #nombre{
-    text-align: center;
     font-weight: bolder;
     font-size: 25px;
-    left: 10%;
     }
 }
 
 #nombre-profesion{
-    font-size: 13px;
-    text-align: center;
+    font-size: 16px;
 }
-
 #frase{
-   font-size: 14px;
    color: rgba(12, 4, 102, 0.692);
    font-weight: bolder;
 }
