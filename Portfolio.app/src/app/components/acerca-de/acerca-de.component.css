@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=IBM+Plex+Mono:wght@200&family=Manrope&display=swap');
+
+
 /*foto de perfil*/
 @media (min-width: 575px){
     #perfil{ 
@@ -8,7 +11,7 @@
         margin-top: -10%;
         }  
 
- /* #bot-perfil{                        /* HABILITAR MAS TARDE /*
+/* #bot-perfil{                        /* HABILITAR MAS TARDE /*
         position: absolute;                    
         left: 15%;
         margin-top: -2%;
@@ -30,10 +33,25 @@
     }   */
 }
 
+
+/* Titulo */
+h1 {                                              
+    color: rgb(0, 0, 0);
+    font-family: 'Manrope', sans-serif;   /* Letra */  /* Letra */
+    font-style: normal;
+    font-weight: 899;                   /* Grosor */
+    font-size: 35px;                   /* Tamaño */
+    text-align:center;
+    text-transform:uppercase;        /* Mayuscula */
+    letter-spacing: 30px;
+    word-spacing: 20px;
+    line-height: 50px;
+}
+
 #alineado{
-    margin-top: 1%;
+    margin-top: 3%;
     text-align: center;
-    margin-bottom: 10%;  
+    margin-bottom: 7%;
     
 }
 @media(max-width: 575px){
@@ -71,10 +89,17 @@
     font-size: 16px;
 }
 #frase{
-   color: rgba(12, 4, 102, 0.692);
-   font-weight: bolder;
+    font-size: 12px;
+    color: rgb(75, 0, 146);
+    font-weight: bolder;
 }
-
+.presentacionMe {
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: bolder;
+}
 /* Sobre mi                             /* HABILITAR MAS TARDE /*
 @media(max-width: 575px){
     #boton-sobre{
