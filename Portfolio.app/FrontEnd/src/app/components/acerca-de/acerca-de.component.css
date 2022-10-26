@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=IBM+Plex+Mono:wght@200&family=Manrope&display=swap');
 
+.rorw {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
 
 /*foto de perfil*/
 @media (min-width: 575px){
@@ -16,8 +20,9 @@
         left: 15%;
         margin-top: -2%;
     }   */
-
 }
+
+/*foto de perfil*/
 @media (max-width: 575px){
     #perfil{
         border: solid 4px white;
@@ -34,25 +39,43 @@
 }
 
 
-/* Titulo */
-h1 {                                              
-    color: rgb(0, 0, 0);
-    font-family: 'Manrope', sans-serif;   /* Letra */  /* Letra */
-    font-style: normal;
-    font-weight: 899;                   /* Grosor */
-    font-size: 35px;                   /* Tamaño */
-    text-align:center;
-    text-transform:uppercase;        /* Mayuscula */
-    letter-spacing: 30px;
-    word-spacing: 20px;
-    line-height: 50px;
+/* Titulo MOBILE */
+@media (max-width: 575px){
+    h1 {                                              
+        color: rgb(0, 0, 0);
+        font-family: 'Manrope', sans-serif;   /* Letra */  /* Letra */
+        font-style: normal;
+        font-weight: 899;                   /* Grosor */
+        font-size: 20px;                   /* Tamaño */
+        text-align:center;
+        text-transform:uppercase;        /* Mayuscula */
+        letter-spacing: 10px;
+        word-spacing: 20px;
+        line-height: 50px;
+    }
 }
+
+/* Titulo PC */
+@media (min-width: 575px){
+    h1 {                                              
+        color: rgb(0, 0, 0);
+        font-family: 'Manrope', sans-serif;   /* Letra */  /* Letra */
+        font-style: normal;
+        font-weight: 899;                   /* Grosor */
+        font-size: 20px;                   /* Tamaño */
+        text-align:center;
+        text-transform:uppercase;        /* Mayuscula */
+        letter-spacing: 10px;
+        word-spacing: 20px;
+        line-height: 50px;
+    }
+}
+
 
 #alineado{
     margin-top: 3%;
     text-align: center;
     margin-bottom: 7%;
-    
 }
 @media(max-width: 575px){
     #alineado-nombre{
@@ -87,17 +110,20 @@ h1 {
 
 #nombre-profesion{
     font-size: 16px;
+    color: black;
 }
+
 #frase{
-    font-size: 12px;
+    font-size: 11px;
     color: rgb(75, 0, 146);
     font-weight: bolder;
 }
+
 .presentacionMe {
     font-style: normal;
     color: rgb(0, 0, 0);
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bolder;
 }
 /* Sobre mi                             /* HABILITAR MAS TARDE /*
@@ -123,3 +149,8 @@ h1 {
     }
 }
 */
+
+/* Mayor Jerarquia: Resolución de caja Automatico*/
+div{
+    margin: auto;
+}

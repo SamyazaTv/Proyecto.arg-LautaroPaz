@@ -1,7 +1,7 @@
 div { 
     display: flex;
     min-height: 70px;                  /* Para que se adapte a lo que sea */
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
     padding: 10px;

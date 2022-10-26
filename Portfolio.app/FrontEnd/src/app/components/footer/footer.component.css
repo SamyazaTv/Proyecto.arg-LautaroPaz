@@ -9,3 +9,8 @@ footer{
     flex-direction: column;
     text-align: center;
 }
+
+/* Mayor Jerarquia: Resolución de caja Automatico*/
+div{
+    margin: auto;
+}

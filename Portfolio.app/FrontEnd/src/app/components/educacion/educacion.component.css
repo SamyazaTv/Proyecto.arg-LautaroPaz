@@ -27,7 +27,7 @@ ul, li {
 
 h3, h4 {
     display: inline;  
-    color: rgb(9, 255, 202);
+    color: #13f7c7;
     font-family: 'Manrope', sans-serif; 
     font-style: normal;
     font-weight: 100;
@@ -43,9 +43,14 @@ p {
 }
 
 h4 {
-    color: rgb(166, 120, 253);
+    color: #8E3EFB;
 }
 
 hr {
     color: rgb(255, 255, 255);
+}
+
+/* Mayor Jerarquia: Resolución de caja Automatico*/
+div{
+    margin: auto;
 }

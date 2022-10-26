@@ -1,5 +1,5 @@
 .row {
-    background-color: rgb(240, 240, 240);
+    background-color: #ECEBE8;
     padding: 20px;
 }
 
@@ -20,4 +20,11 @@ h2 {
     word-spacing: 20px;
     line-height: 50px;
     padding-bottom: 30px;
+}
+
+/* Mayor Jerarquia: Resolución de caja Automatico*/
+div{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }

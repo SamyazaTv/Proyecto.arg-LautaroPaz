@@ -1,3 +1,8 @@
+/* Mayor Jerarquia: Resolución de caja Automatico*/
+div{
+    margin: auto;
+}
+
 img {
     width: 100%;
     height: auto; /* Permite escalar bien la imagen */
