@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=IBM+Plex+Mono:wght@200&family=Manrope&display=swap');
 
-.rorw {
+.row {
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: #D3CFF8;
 }
 
 /*foto de perfil*/
 @media (min-width: 575px){
     #perfil{ 
-        border: solid 4px white;
         position: absolute;
         width: 18%;  
-        left: 7%;  
+        left: 96px;  
         margin-top: -10%;
         }  
 
@@ -25,7 +24,6 @@
 /*foto de perfil*/
 @media (max-width: 575px){
     #perfil{
-        border: solid 4px white;
         position: relative;
         margin-top: -6%;
         width: 30%;

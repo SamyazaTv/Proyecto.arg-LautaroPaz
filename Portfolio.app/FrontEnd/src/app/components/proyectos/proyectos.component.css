@@ -1,35 +1,15 @@
-.row{
+.row{                                       /* GENERAL */
     padding: 20px;
-    background-color: #000000;
-    padding-bottom: 80px;
-    box-sizing: border-box;
+    background-color: #05033E;
+    padding-bottom: 20px;
+    display: flex;
 }
-.contenedor{
-    width: auto;
-}
-.parte1, .parte2{
+
+.parte1 {
     display: inline-block;
     text-align: justify;
 }
-.img-proyecto{
-    box-shadow: 5px 5px 40px #38006d;
-    border-radius: 20px 20px 20px 20px;
-    width: 100%;
-    height: auto; /* Permite escalar bien la imagen */
-}
 
-@media screen and (max-width: 500px) { /* Adaptar a moviles*/
-    .img-proyecto {
-        padding: 0px 20px;
-        background-color: white;
-    }
-}
-
-@media screen and (min-width: 769px ) { /* Adaptar a pc*/
-    .img-proyecto {
-    align-items: center;
-    }
-}
 
 .tituloProyectos {
     color: white;
@@ -47,7 +27,7 @@
 
 h3 {
     display: inline;  
-    color: #13f7c7;
+    color:  #03fbfe;
     font-family: 'Manrope', sans-serif; 
     font-style: normal;
     font-weight: 100;
@@ -60,33 +40,73 @@ h3 {
 /* parrafo MOBILE */
 @media (max-width: 575px){
     p {
+        padding: 4px;
         color: white;
         font-family: 'IBM Plex Mono', monospace;
-        font-size: 15px;
-        padding-bottom: 40px;
+        font-size: 12px;
     } 
 }
 
 /* parrafo PC */
 @media (min-width: 575px){
     p {
+    padding: 4px;    
     color: white;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 15px; 
-    padding-bottom: 40px;
+    font-size: 12px; 
     }
 }
 
-.imagen3Contenedor {
-    align-items: center;
-}
-
-#imagenesCarrusel {
-    align-items: center;
-    width: 100%;
-}
 
 /* Mayor Jerarquia: Resolución de caja Automatico*/
 div{
     margin: auto;
+}
+
+.CollageProyecto1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+}
+
+.CollageProyecto2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+    padding-bottom: 40px;
+}
+
+
+/* Configuración collage */
+img {
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px
+}
+
+.foto1 {
+    width: 41%;
+    height: 30%;
+}
+
+.foto2 {
+    width: 42%;
+    height: 30%;
+}
+
+.foto3 {
+    width: 51%;
+    height: 50%;
+}
+
+.foto4 {
+    width: 32%;
+    height: 45%;
+}
+
+@media (max-width:700px) {
+    div{
+        flex-direction: column;   /* Para que los objetos aparezcan uno arriba de otro */
+    }
 }

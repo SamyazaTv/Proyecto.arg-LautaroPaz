@@ -1,6 +1,7 @@
 .row {
-    background-color: #ECEBE8;
+    background-color: #D3CFF8;
     padding: 20px;
+    display: flex;
 }
 
 h2 {
