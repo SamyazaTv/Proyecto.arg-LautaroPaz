@@ -5,11 +5,10 @@
     display: flex;
 }
 
-.parte1 {
-    display: inline-block;
-    text-align: justify;
+.contenedor{
+    display: flex;
+    flex-direction: column;
 }
-
 
 .tituloProyectos {
     color: white;
@@ -26,7 +25,7 @@
 }
 
 h3 {
-    display: inline;  
+    text-align: start;
     color:  #03fbfe;
     font-family: 'Manrope', sans-serif; 
     font-style: normal;
@@ -42,7 +41,7 @@ h3 {
     p {
         padding: 4px;
         color: white;
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Prompt', sans-serif;
         font-size: 12px;
     } 
 }
@@ -52,7 +51,7 @@ h3 {
     p {
     padding: 4px;    
     color: white;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Prompt', sans-serif;
     font-size: 12px; 
     }
 }
@@ -63,50 +62,10 @@ div{
     margin: auto;
 }
 
-.CollageProyecto1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: normal;
-}
-
-.CollageProyecto2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: normal;
-    padding-bottom: 40px;
-}
-
-
 /* Configuración collage */
 img {
-    border-radius: 20px 20px 20px 20px;
-    padding: 5px
-}
-
-.foto1 {
-    width: 41%;
-    height: 30%;
-}
-
-.foto2 {
-    width: 42%;
-    height: 30%;
-}
-
-.foto3 {
-    width: 51%;
-    height: 50%;
-}
-
-.foto4 {
-    width: 32%;
-    height: 45%;
-}
-
-@media (max-width:700px) {
-    div{
-        flex-direction: column;   /* Para que los objetos aparezcan uno arriba de otro */
-    }
+    padding-top: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
 }

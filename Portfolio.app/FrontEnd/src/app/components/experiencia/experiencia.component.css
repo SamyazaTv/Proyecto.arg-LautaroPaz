@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=IBM+Plex+Mono:wght@200&family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Prompt:wght@300&display=swap');
 
 .row {
     padding: 20px;                         /* Espacio del contenedor con los elementos*/
@@ -44,7 +44,7 @@ h3, h4 {
 
 p {
     color: white;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Prompt', sans-serif;
     font-size: 12px;
 }
 
@@ -63,4 +63,3 @@ div{
 span {
     color: white;
 }
-

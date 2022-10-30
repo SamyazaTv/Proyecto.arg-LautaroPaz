@@ -11,6 +11,6 @@ img {
 @media screen and (max-width: 500px) { /* Adaptar a moviles*/
     .responsive {
         padding: 0px 20px;
-        background-color: white;
+        background-color: #D3CFF8;
     }
 }
