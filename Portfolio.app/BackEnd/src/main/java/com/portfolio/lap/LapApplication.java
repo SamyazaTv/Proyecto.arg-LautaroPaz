@@ -1,13 +1,13 @@
-package com.portfolio.lautaropaz;
+package com.portfolio.lap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LautaropazApplication {
+public class LapApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LautaropazApplication.class, args);
+		SpringApplication.run(LapApplication.class, args);
 	}
 
 }

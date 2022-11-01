@@ -1,10 +1,10 @@
-package com.portfolio.lautaropaz;
+package com.portfolio.lap;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LautaropazApplicationTests {
+class LapApplicationTests {
 
 	@Test
 	void contextLoads() {

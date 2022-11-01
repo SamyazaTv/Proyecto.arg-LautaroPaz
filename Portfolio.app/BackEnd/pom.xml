@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.portfolio</groupId>
-	<artifactId>lautaropaz</artifactId>
+	<artifactId>lap</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lautaropaz</name>
-	<description>Portfolio Personal - APP / ARG</description>
+	<name>lap</name>
+	<description>Portfolio de Lautaro Agustin Paz</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
